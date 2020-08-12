@@ -1,16 +1,16 @@
 # CPU SCHEDULING Algorithms
-* [FCFS](#FCFS)
-* [SJF](#SJF)
-* [PSJF](#PSJF)
-* [RR](#RR)
+* [FCFS (First-Come, First-Served)](#FCFS)
+* [SJF (Shortest Job First)](#SJF)
+* [PSJF (Preemptive Shortest Job First)](#PSJF)
+* [RR (Round-Robin)](#RR)
 
-## FCFS
-## SJF
-## PSJF
-## RR
+## FCFS (First-Come, First-Served)
+## SJF (Shortest Job First)
+## PSJF (Preemptive Shortest Job First)
+## RR (Round-Robin)
 ## Usage
 ```shell
-
+make // 
 ```
 ## Reference
 
