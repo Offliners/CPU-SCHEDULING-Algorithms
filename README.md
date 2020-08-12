@@ -17,4 +17,4 @@ $ sudo sh time.sh                            // calculate the period of all idea
 $ python ganttChart_plot.py                  // plot the gantt chart of all scheduling algorithms
 ```
 ## Reference
-
+https://github.com/wangyenjen/OS-Project-1
