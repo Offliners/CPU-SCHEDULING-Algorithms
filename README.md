@@ -57,4 +57,8 @@ $ python ganttChart_plot.py                  // plot the gantt chart of all sche
 ## RR
 
 ## Reference
+https://sls.weco.net/node/21325
+
 https://github.com/wangyenjen/OS-Project-1
+
+https://blog.kaibro.tw/2016/11/07/Linux-Kernel%E7%B7%A8%E8%AD%AF-Ubuntu/
