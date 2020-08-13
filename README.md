@@ -14,6 +14,7 @@ $ sudo ./scheduler < data/FCFS_1.txt         // test the first data of FCFS
 $ ./calc < data/FCFS_1.txt                   // calculate the the preiod of the first data of FCFS
 $ sudo sh time.sh                            // calculate the period of all ideal cases and real cases
 $ python ganttChart_plot.py                  // plot the gantt chart of all scheduling algorithms
+$ 
 ```
 
 ## FCFS
@@ -201,6 +202,68 @@ $ python ganttChart_plot.py                  // plot the gantt chart of all sche
 ![PSJF_5](https://github.com/Offliners/CPU-SCHEDULING-Algorithms/blob/master/images/PSJF/PSJF_5.png)
 
 ## RR
+
+#### RR_1
+
+|Process|Arrive time|Burst time|
+|-|-|-|
+|P1|0|1000|
+|P2|0|1000|
+|P3|0|1000|
+|P4|0|1000|
+|P5|0|1000|
+
+![RR_1](https://github.com/Offliners/CPU-SCHEDULING-Algorithms/blob/master/images/RR/RR_1.png)
+
+#### RR_2
+
+|Process|Arrive time|Burst time|
+|-|-|-|
+|P1|600|4000|
+|P2|800|5000|
+
+![RR_2](https://github.com/Offliners/CPU-SCHEDULING-Algorithms/blob/master/images/RR/RR_2.png)
+
+#### RR_3
+
+|Process|Arrive time|Burst time|
+|-|-|-|
+|P1|1200|5000|
+|P2|2400|4000|
+|P3|3600|3000|
+|P4|4800|7000|
+|P5|5200|6000|
+|P6|5800|5000|
+
+![RR_3](https://github.com/Offliners/CPU-SCHEDULING-Algorithms/blob/master/images/RR/RR_3.png)
+
+#### RR_4
+
+|Process|Arrive time|Burst time|
+|-|-|-|
+|P1|0|8000|
+|P2|200|5000|
+|P3|300|3000|
+|P4|400|1000|
+|P5|500|1000|
+|P6|500|1000|
+|P7|600|4000|
+
+![RR_4](https://github.com/Offliners/CPU-SCHEDULING-Algorithms/blob/master/images/RR/RR_4.png)
+
+#### RR_5
+
+|Process|Arrive time|Burst time|
+|-|-|-|
+|P1|0|8000|
+|P2|200|5000|
+|P3|200|3000|
+|P4|400|1000|
+|P5|400|1000|
+|P6|600|1000|
+|P7|600|4000|
+
+![RR_5](https://github.com/Offliners/CPU-SCHEDULING-Algorithms/blob/master/images/RR/RR_5.png)
 
 ## Reference
 https://sls.weco.net/node/21325
