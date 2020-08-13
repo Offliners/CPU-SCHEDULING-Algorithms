@@ -4,6 +4,7 @@
 * [SJF (Shortest Job First)](#SJF)
 * [PSJF (Preemptive Shortest Job First)](#PSJF)
 * [RR (Round-Robin)](#RR)
+* [Linux Kernel add Syscall (Ubuntu)](https://blog.kaibro.tw/2016/11/07/Linux-Kernel%E7%B7%A8%E8%AD%AF-Ubuntu/)
 
 ## Usage
 ```shell
