@@ -9,6 +9,7 @@
 ## Usage
 ```shell
 $ make                                       // compile all program
+$ sudo ./time                                // calaulate the period of a time unit
 $ sudo ./scheduler < data/FCFS_1.txt         // test the first data of FCFS
 $ ./calc < data/FCFS_1.txt                   // calculate the the preiod of the first data of FCFS
 $ sudo sh time.sh                            // calculate the period of all ideal cases and real cases
@@ -79,6 +80,67 @@ $ python ganttChart_plot.py                  // plot the gantt chart of all sche
 ![FCFS_5](https://github.com/Offliners/CPU-SCHEDULING-Algorithms/blob/master/images/FCFS/FCFS_5.png)
 
 ## SJF
+#### SJF_1
+
+|Process|Arrive time|Burst time|
+|-|-|-|
+|P1|0|5000|
+|P2|0|2500|
+|P3|200|1000|
+|P4|300|2000|
+
+![SJF_1](https://github.com/Offliners/CPU-SCHEDULING-Algorithms/blob/master/images/FCFS/SJF_1.png)
+
+#### SJF_2
+
+|Process|Arrive time|Burst time|
+|-|-|-|
+|P1|100|100|
+|P2|100|4000|
+|P3|200|200|
+|P4|200|4000|
+|P5|200|7000|
+
+![SJF_2](https://github.com/Offliners/CPU-SCHEDULING-Algorithms/blob/master/images/FCFS/SJF_2.png)
+
+#### SJF_3
+
+|Process|Arrive time|Burst time|
+|-|-|-|
+|P1|100|3000|
+|P2|100|5000|
+|P3|100|7000|
+|P4|200|10|
+|P5|200|10|
+|P6|300|4000|
+|P7|400|4000|
+|P8|500|9000|
+
+![SJF_3](https://github.com/Offliners/CPU-SCHEDULING-Algorithms/blob/master/images/FCFS/SJF_3.png)
+
+#### SJF_4
+
+|Process|Arrive time|Burst time|
+|-|-|-|
+|P1|0|3000|
+|P2|1000|1000|
+|P3|2000|4000|
+|P4|5000|2000|
+|P5|7000|1000|
+
+![SJF_4](https://github.com/Offliners/CPU-SCHEDULING-Algorithms/blob/master/images/FCFS/SJF_4.png)
+
+#### SJF_5
+
+|Process|Arrive time|Burst time|
+|-|-|-|
+|P1|0|2000|
+|P2|500|500|
+|P3|1000|500|
+|P4|1500|500|
+
+![SJF_5](https://github.com/Offliners/CPU-SCHEDULING-Algorithms/blob/master/images/FCFS/SJF_5.png)
+
 ## PSJF
 ## RR
 
