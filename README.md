@@ -265,6 +265,9 @@ $
 
 ![RR_5](https://github.com/Offliners/CPU-SCHEDULING-Algorithms/blob/master/images/RR/RR_5.png)
 
+## Linux Kernel 
+* `linux-4.10.13`
+
 ## Reference
 https://sls.weco.net/node/21325
 
