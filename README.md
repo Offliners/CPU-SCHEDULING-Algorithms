@@ -142,6 +142,64 @@ $ python ganttChart_plot.py                  // plot the gantt chart of all sche
 ![SJF_5](https://github.com/Offliners/CPU-SCHEDULING-Algorithms/blob/master/images/SJF/SJF_5.png)
 
 ## PSJF
+
+#### PSJF_1
+
+|Process|Arrive time|Burst time|
+|-|-|-|
+|P1|0|5000|
+|P2|0|2500|
+|P3|200|1000|
+|P4|300|2000|
+
+![PSJF_1](https://github.com/Offliners/CPU-SCHEDULING-Algorithms/blob/master/images/PSJF/PSJF_1.png)
+
+#### PSJF_2
+
+|Process|Arrive time|Burst time|
+|-|-|-|
+|P1|0|3000|
+|P2|1000|1000|
+|P3|2000|4000|
+|P4|5000|2000|
+|P5|7000|1000|
+
+![PSJF_2](https://github.com/Offliners/CPU-SCHEDULING-Algorithms/blob/master/images/PSJF/PSJF_2.png)
+
+#### PSJF_3
+
+|Process|Arrive time|Burst time|
+|-|-|-|
+|P1|0|2000|
+|P2|500|500|
+|P3|1000|500|
+|P4|1500|500|
+
+![PSJF_3](https://github.com/Offliners/CPU-SCHEDULING-Algorithms/blob/master/images/PSJF/PSJF_3.png)
+
+#### PSJF_4
+
+|Process|Arrive time|Burst time|
+|-|-|-|
+|P1|0|7000|
+|P2|0|2000|
+|P3|100|1000|
+|P4|200|4000|
+
+![PSJF_4](https://github.com/Offliners/CPU-SCHEDULING-Algorithms/blob/master/images/PSJF/PSJF_4.png)
+
+#### PSJF_5
+
+|Process|Arrive time|Burst time|
+|-|-|-|
+|P1|100|100|
+|P2|100|4000|
+|P3|200|200|
+|P4|200|5000|
+|P5|200|7000|
+
+![PSJF_5](https://github.com/Offliners/CPU-SCHEDULING-Algorithms/blob/master/images/PSJF/PSJF_5.png)
+
 ## RR
 
 ## Reference
