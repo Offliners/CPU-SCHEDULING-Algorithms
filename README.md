@@ -1,8 +1,8 @@
 # CPU SCHEDULING Algorithms
-* [FCFS (First-Come, First-Served)](#FCFS)
-* [SJF (Shortest Job First)](#SJF)
-* [PSJF (Preemptive Shortest Job First)](#PSJF)
-* [RR (Round-Robin)](#RR)
+* [FCFS (First-Come, First-Served)](#FCFS (First-Come, First-Served))
+* [SJF (Shortest Job First)](#SJF (Shortest Job First))
+* [PSJF (Preemptive Shortest Job First)](#PSJF (Preemptive Shortest Job First))
+* [RR (Round-Robin)](#RR (Round-Robin))
 
 ## Usage
 ```shell
@@ -16,7 +16,7 @@ $ python ganttChart_plot.py                  // plot the gantt chart of all sche
 ## FCFS (First-Come, First-Served)
 * FCFS_1
 
-|Process|Start|End|
+|Process|Arrived time|Burst time|
 |-|-|-|
 |P1|0|1000|
 |P2|0|1000|
