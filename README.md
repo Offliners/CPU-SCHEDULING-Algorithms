@@ -1,8 +1,8 @@
 # CPU SCHEDULING Algorithms
-* [FCFS (First-Come, First-Served)](#FCFS (First-Come, First-Served))
-* [SJF (Shortest Job First)](#SJF (Shortest Job First))
-* [PSJF (Preemptive Shortest Job First)](#PSJF (Preemptive Shortest Job First))
-* [RR (Round-Robin)](#RR (Round-Robin))
+* [FCFS (First-Come, First-Served)](#FCFS)
+* [SJF (Shortest Job First)](#SJF)
+* [PSJF (Preemptive Shortest Job First)](#PSJF)
+* [RR (Round-Robin)](#RR)
 
 ## Usage
 ```shell
@@ -13,7 +13,7 @@ $ sudo sh time.sh                            // calculate the period of all idea
 $ python ganttChart_plot.py                  // plot the gantt chart of all scheduling algorithms
 ```
 
-## FCFS (First-Come, First-Served)
+## FCFS
 * FCFS_1
 
 |Process|Arrived time|Burst time|
@@ -26,9 +26,20 @@ $ python ganttChart_plot.py                  // plot the gantt chart of all sche
 
 ![FCFS_1](https://github.com/Offliners/CPU-SCHEDULING-Algorithms/blob/master/images/FCFS/FCFS_1.png)
 
-## SJF (Shortest Job First)
-## PSJF (Preemptive Shortest Job First)
-## RR (Round-Robin)
+* FCFS_2
+
+|Process|Arrived time|Burst time|
+|-|-|-|
+|P1|0|80000|
+|P2|100|5000|
+|P3|200|1000|
+|P4|300|1000|
+
+![FCFS_2](https://github.com/Offliners/CPU-SCHEDULING-Algorithms/blob/master/images/FCFS/FCFS_2.png)
+
+## SJF
+## PSJF
+## RR
 
 ## Reference
 https://github.com/wangyenjen/OS-Project-1
