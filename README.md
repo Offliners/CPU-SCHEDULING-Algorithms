@@ -89,7 +89,7 @@ $ python ganttChart_plot.py                  // plot the gantt chart of all sche
 |P3|200|1000|
 |P4|300|2000|
 
-![SJF_1](https://github.com/Offliners/CPU-SCHEDULING-Algorithms/blob/master/images/FCFS/SJF_1.png)
+![SJF_1](https://github.com/Offliners/CPU-SCHEDULING-Algorithms/blob/master/images/SJF/SJF_1.png)
 
 #### SJF_2
 
@@ -101,7 +101,7 @@ $ python ganttChart_plot.py                  // plot the gantt chart of all sche
 |P4|200|4000|
 |P5|200|7000|
 
-![SJF_2](https://github.com/Offliners/CPU-SCHEDULING-Algorithms/blob/master/images/FCFS/SJF_2.png)
+![SJF_2](https://github.com/Offliners/CPU-SCHEDULING-Algorithms/blob/master/images/SJF/SJF_2.png)
 
 #### SJF_3
 
@@ -116,7 +116,7 @@ $ python ganttChart_plot.py                  // plot the gantt chart of all sche
 |P7|400|4000|
 |P8|500|9000|
 
-![SJF_3](https://github.com/Offliners/CPU-SCHEDULING-Algorithms/blob/master/images/FCFS/SJF_3.png)
+![SJF_3](https://github.com/Offliners/CPU-SCHEDULING-Algorithms/blob/master/images/SJF/SJF_3.png)
 
 #### SJF_4
 
@@ -128,7 +128,7 @@ $ python ganttChart_plot.py                  // plot the gantt chart of all sche
 |P4|5000|2000|
 |P5|7000|1000|
 
-![SJF_4](https://github.com/Offliners/CPU-SCHEDULING-Algorithms/blob/master/images/FCFS/SJF_4.png)
+![SJF_4](https://github.com/Offliners/CPU-SCHEDULING-Algorithms/blob/master/images/SJF/SJF_4.png)
 
 #### SJF_5
 
@@ -139,7 +139,7 @@ $ python ganttChart_plot.py                  // plot the gantt chart of all sche
 |P3|1000|500|
 |P4|1500|500|
 
-![SJF_5](https://github.com/Offliners/CPU-SCHEDULING-Algorithms/blob/master/images/FCFS/SJF_5.png)
+![SJF_5](https://github.com/Offliners/CPU-SCHEDULING-Algorithms/blob/master/images/SJF/SJF_5.png)
 
 ## PSJF
 ## RR
