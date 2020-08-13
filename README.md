@@ -1,4 +1,5 @@
 # CPU SCHEDULING Algorithms
+* [Usage](#Usage)
 * [FCFS (First-Come, First-Served)](#FCFS)
 * [SJF (Shortest Job First)](#SJF)
 * [PSJF (Preemptive Shortest Job First)](#PSJF)
@@ -14,7 +15,7 @@ $ python ganttChart_plot.py                  // plot the gantt chart of all sche
 ```
 
 ## FCFS
-* FCFS_1
+#### FCFS_1
 
 |Process|Arrived time|Burst time|
 |-|-|-|
@@ -26,7 +27,7 @@ $ python ganttChart_plot.py                  // plot the gantt chart of all sche
 
 ![FCFS_1](https://github.com/Offliners/CPU-SCHEDULING-Algorithms/blob/master/images/FCFS/FCFS_1.png)
 
-* FCFS_2
+#### FCFS_2
 
 |Process|Arrived time|Burst time|
 |-|-|-|
@@ -36,6 +37,20 @@ $ python ganttChart_plot.py                  // plot the gantt chart of all sche
 |P4|300|1000|
 
 ![FCFS_2](https://github.com/Offliners/CPU-SCHEDULING-Algorithms/blob/master/images/FCFS/FCFS_2.png)
+
+#### FCFS_3
+
+|Process|Arrived time|Burst time|
+|-|-|-|
+|P1|0|8000|
+|P2|200|5000|
+|P3|300|3000|
+|P4|400|1000|
+|P5|500|1000|
+|P6|500|1000|
+|P7|600|4000|
+
+![FCFS_3](https://github.com/Offliners/CPU-SCHEDULING-Algorithms/blob/master/images/FCFS/FCFS_3.png)
 
 ## SJF
 ## PSJF
