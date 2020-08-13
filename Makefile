@@ -1,19 +1,18 @@
-
-# all : calc
-all : process scheduler calc
+all : process scheduler calc time                                                                                                                                                                           
 
 process :
-	gcc -O2 process.c common.c -o process
+        gcc process.c common.c -o process
 
 scheduler :
-	gcc -O2 FCFS.c common.c merge_sort.c -o FCFS
-	gcc -O2 RR.c common.c merge_sort.c -o RR
-	gcc -O2 SJF.c common.c merge_sort.c heap.c -o SJF
-	gcc -O2 PSJF.c common.c merge_sort.c heap.c -o PSJF
-	gcc -O2 scheduler.c common.c -o scheduler
+        gcc FCFS.c common.c merge_sort.c -o FCFS
+        gcc RR.c common.c merge_sort.c -o RR
+        gcc SJF.c common.c merge_sort.c heap.c -o SJF
+        gcc PSJF.c common.c merge_sort.c heap.c -o PSJF
+        gcc scheduler.c common.c -o scheduler
+        gcc time.c common.c -o time
 
 calc :
-	gcc -O2 calc.c common.c merge_sort.c heap.c -o calc
+        gcc calc.c common.c merge_sort.c heap.c -o calc
 
 clean:
-	@rm process scheduler FCFS SJF RR PSJF calc
+        @rm process scheduler FCFS SJF RR PSJF calc time
